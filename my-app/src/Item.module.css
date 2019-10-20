@@ -1,0 +1,90 @@
+
+.listItem{
+    display: flex;
+    background-color: rgb(255,255,255);
+    flex-direction: column;
+    border: 1px solid;
+    width: 40vw;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-radius: 10px ;
+}
+
+.listItem label{
+    color: lightseagreen
+}
+
+.list{
+    display: flex;
+    background-color: rgb(255,255,255);
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttonStyle {
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonStyle button{
+    margin: 5px;
+    align-items: center;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.detail2{
+    justify-content: center;
+    width: 80vw;
+    height: 80vh;
+    border: 1px solid gray;
+    border-radius: 10px ;
+    align-items: center;
+    margin: 50px;
+    padding: 30px;
+}
+
+.detail2 div{
+    flex-direction: column;
+}
+
+.detail2 div label{
+    color: lightseagreen
+
+}
+
+.modalBody{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.modalOption{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50vw;
+    height: 50vh;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.modalOption button{
+    width: 4vw;
+    height: 4vh;
+    margin-top: 10px;
+    margin-left: 300px;
+}
